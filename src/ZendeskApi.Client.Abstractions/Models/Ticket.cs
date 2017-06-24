@@ -63,7 +63,7 @@ namespace ZendeskApi.Client.Models
         public long? GroupId { get; set; }
 
         [JsonProperty("ticket_form_id")]
-        public int? FormId { get; set; }
+        public long? FormId { get; set; }
 
         [JsonProperty("via")]
         public Via Via { get; set; }
